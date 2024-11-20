@@ -9,8 +9,10 @@
 
     <?php
 
-        echo("Hello World");
-        
+        echo "<h1> Aryan's Site </h1>";
+        echo "<hr>";
+        echo "Hello World!";
+
      ?>
 
 
