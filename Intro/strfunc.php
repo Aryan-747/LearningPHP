@@ -12,6 +12,9 @@
         $stringo = "Hello Wassgud!";
 
         echo strtolower($stringo); // Converts Uppercase to Lowercase
+        echo strtoupper($stringo); // Converts Lowercase to Uppercase
+        echo ucfirst($stringo); // Converts First Letter to Uppercase
+        echo ucwords($stringo); // Converts First Letter of Each Word to Uppercase
     
      ?>
     
