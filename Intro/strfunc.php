@@ -22,6 +22,14 @@
         echo strlen($stringo); // Prints the length of the string
         echo "<br>";
 
+
+
+        $stirfry = "BobMarley";
+
+        $stirfry[0] = 'J';
+
+        echo "$stirfry <br>"; // Prints modified String;
+
      ?>
     
 </body>
