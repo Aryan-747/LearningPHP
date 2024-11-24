@@ -29,6 +29,8 @@
         $stirfry[0] = 'J';
 
         echo "$stirfry <br>"; // Prints modified String;
+        echo str_replace("Job","GOATBob",$stirfry); // replaces given substring
+        echo "<br>";
 
      ?>
     
