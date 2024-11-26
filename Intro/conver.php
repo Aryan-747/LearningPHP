@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['text'])) {
     $text = $_POST['text'];
     $convertedText = convertUrlsToLinks($text);
 } else {
-    $convertedText = '';
+    $convertedText = ' ';
 }
 ?>
 
@@ -39,7 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['text'])) {
     <h3>Converted Text:</h3>
     <div>
         <?php
-        // Display the converted text with clickable links
         if ($convertedText) {
             echo $convertedText;
         }
